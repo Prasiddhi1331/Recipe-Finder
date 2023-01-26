@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=Rowdies:wght@300;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  min-height: 100vh;
+  margin:auto;
+  background:url('https://t4.ftcdn.net/jpg/03/15/56/21/360_F_315562154_IHPB75WqP42YzXarrHYasro0Q0VQUbad.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h2style{
+  color:red;
+  font-family: 'Fredoka One', cursive;
+  /* font-family: 'Rowdies', cursive; */
+}
+
+.form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input {
+  width: 50%;
+  border: none;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0px 20px 0px;
+  margin-right: 6px;
+}
+.search {
+  border: none;
+  background: rgb(225, 93, 91);
+  padding: 12px 20px;
+  color: white;
+  font-family: 'Rowdies', cursive;
+  border-radius: 20px 0px 20px 0px;
+}
+.search:hover {
+  background:rgb(236, 73, 70);
+  cursor: pointer;
+}
+/* .footer-copyright{
+  min-height: 10vh;
+  background-image: linear-gradient(rgba(106, 102, 102, 0.133), rgba(218, 210, 210, 0.237));
+  color:rgb(9, 9, 9);
+  font-family: 'Rowdies', cursive;
+}
+ */
+
+
