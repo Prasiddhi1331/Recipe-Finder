@@ -5,7 +5,7 @@ function Recipe(props) {
   return (
     <div className={style.food}>
       <img src={props.image} className={style.image} alt={props.label}></img>
-      <div class="card-body">
+      <div className="card-body">
         <h2>{props.title}</h2>
         <p className="font-weight-bold"> Calories:<span style={{ color: '#DE3163' }}> {props.calory} Cal</span></p>
         <p className="font-weight-bold">Number of servings:<span style={{color: '#DE3163'}}> {props.yield}</span></p>
