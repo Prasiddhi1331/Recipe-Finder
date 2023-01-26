@@ -54,4 +54,24 @@
 }
  */
 
+.search1 {
+  display: none;
+}
 
+@media screen and (max-width: 769px) {
+  .search {
+    display: none;
+  }
+  .search1 {
+    border: none;
+    background: rgb(225, 93, 91);
+    padding: 12px 20px;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    border-radius: 20px 0px 20px 0px;
+    display:flex;
+  }
+  .input {
+    width: 70%;
+  }
+}

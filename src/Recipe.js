@@ -18,7 +18,7 @@ function Recipe(props) {
       </ul> */}
       <p className="font-weight-bold"> Calories:<span style={{color: '#DE3163'}}> {props.calory} Cal</span></p>
       </div>
-      <button className={style.myStyle}><a href={props.url} className={style.linkStyle} target="_blank"  role="button">View Recipe >></a></button>
+      <button className={style.myStyle}><a href={props.url} className={style.linkStyle} target="_blank"  role="button">View Recipe >> </a></button>
     </div>
   );
 }

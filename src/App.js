@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import { SocialIcon } from 'react-social-icons';
 import Recipe from "./Recipe";
+import { BsSearch } from "react-icons/bs";
 import "./App.css";
 
 
@@ -35,8 +36,9 @@ function App() {
     <div className="App">
       <h2 className="text-center mt-3 h2style">RECIPE FINDER</h2>
       <form onSubmit={getSearch} className="form">
-        <input type="text" className="input" value={search} placeholder= "paneer, chicken, pancake etc..."onChange={updateSearch}></input>
+        <input type="text" className="input" value={search} placeholder= "panner, chicken, pancake etc..."onChange={updateSearch}></input>
         <button type="submit" className="search">Search</button>
+        <button type="submit" className="search1"> <BsSearch size="20px" color="white"/> </button>
       </form>
       <div className="d-flex justify-content-around flex-wrap">
         {allRecipe.map((r) => (
