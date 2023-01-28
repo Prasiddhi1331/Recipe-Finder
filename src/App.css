@@ -7,7 +7,7 @@
 .App {
   min-height: 100vh;
   margin:auto;
-  background:url('https://t4.ftcdn.net/jpg/03/15/56/21/360_F_315562154_IHPB75WqP42YzXarrHYasro0Q0VQUbad.jpg');
+  background:url('https://img.freepik.com/premium-photo/collection-vegetables-isolated-white-background_44074-1572.jpg?w=2000');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,6 +72,11 @@
     display:flex;
   }
   .input {
-    width: 70%;
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .input {
+    width: 80vw;
   }
 }

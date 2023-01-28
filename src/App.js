@@ -32,9 +32,9 @@ function App() {
   return (
     <div>
     <div className="App">
-      <h2 className="text-center mt-3 h2style">RECIPE FINDER</h2>
+      <h2 className="text-center mt-3 h2style"> 👩‍🍳 RECIPE FINDER 🧑‍🍳</h2>
       <form onSubmit={getSearch} className="form">
-        <input type="text" className="input" value={search} placeholder= "panner, chicken, pancake etc..."onChange={updateSearch}></input>
+        <input type="text" className="input" value={search} placeholder= "pizza, chicken, pancake etc..."onChange={updateSearch}></input>
         <button type="submit" className="search">Search</button>
         <button type="submit" className="search1"> <BsSearch size="20px" color="white"/> </button>
       </form>
